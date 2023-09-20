@@ -136,6 +136,26 @@ video {
     transition: all ease 0.5s;
 }
 
+@media (max-width: 768px) {
+    #page1 h1 {
+        font-size: 12vw; /* Adjusted font size for smaller screens */
+    }
+
+    #page1 h2 {
+        font-size: 3vw; /* Adjusted font size for smaller screens */
+    }
+
+    #page1 p {
+        font-size: 2vw; /* Adjusted font size for smaller screens */
+        width: 90%; /* Adjusted width for smaller screens */
+    }
+
+    #page1 #arrow {
+        height: 10vw; /* Adjusted height for smaller screens */
+        width: 10vw; /* Adjusted width for smaller screens */
+    }
+}
+
 #page1 #arrow i{
     font-size: 50px;
     font-weight: 100;
