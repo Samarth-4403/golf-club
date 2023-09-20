@@ -11,32 +11,32 @@ html, body {
     width: 100%;
 }
 
-*::selection{
+*::selection {
     background-color: #fff;
     color: #95C11E;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     display: block;
     width: 8px;
     background-color: #95C11E;
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
     background-color: #fff;
     border-radius: 50px;
 }
 
 #cursor {
     height: 20px;
-    width: 20spx;
+    width: 20px; /* Corrected typo */
     background-color: #95C11E;
     border-radius: 50%;
     position: fixed;
     z-index: 99;
 }
 
-#cursor-blur{
+#cursor-blur {
     height: 500px;
     width: 500px;
     background-color: #96c11e2b;
@@ -47,20 +47,19 @@ body::-webkit-scrollbar-thumb{
 }
 
 #nav {
-    height: 145px;
+    height: 10%; /* Updated to relative height */
     width: 100%;
-    /* background-color: red; */
     display: flex;
     align-items: center;
-    padding: 0 150px;
-    gap: 50px;
+    padding: 0 5%; /* Adjusted padding for responsiveness */
+    gap: 2%;
     position: fixed;
     justify-content: flex-start;
     z-index: 99;
 }
 
-#nav img{
-    height: 75px;
+#nav img {
+    height: 60%; /* Updated to relative height */
 }
 
 #nav h4 {
@@ -81,7 +80,7 @@ video {
     background-color: rgba(0, 0, 0, 0.37);
 }
 
-#page1{
+#page1 {
     height: 100vh;
     width: 100%;
     position: relative;
@@ -93,13 +92,13 @@ video {
     z-index: 10;
 }
 
-#page1 h1{
-    font-size: 140px;
+#page1 h1 {
+    font-size: 8vw; /* Adjusted font size for responsiveness */
     font-weight: 900;
     position: relative;
 }
 
-#page1 h1::before{
+#page1 h1::before {
     content: "EAT. DRINK. PLAY.";
     position: absolute;
     color: black;
@@ -108,22 +107,23 @@ video {
     -webkit-text-stroke: 2px #95C11E;
     z-index: -1;
 }
-#page1 h2{
-    font-size: 30px;
+
+#page1 h2 {
+    font-size: 2vw; /* Adjusted font size for responsiveness */
     font-weight: 800;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-#page1 p{
-    font-size: 20px;
+#page1 p {
+    font-size: 1vw; /* Adjusted font size for responsiveness */
     font-weight: 500;
-    width: 40%;
+    width: 80%; /* Adjusted width for responsiveness */
 }
 
-#page1 #arrow{
-    height: 250px;
-    width: 250px;
+#page1 #arrow {
+    height: 10vw; /* Adjusted height for responsiveness */
+    width: 10vw; /* Adjusted width for responsiveness */
     background-color: transparent;
     border: 2px solid #95C11E;
     position: absolute;
